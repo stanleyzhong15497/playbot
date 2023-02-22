@@ -1,11 +1,10 @@
 import os
 
 import discord
-# from dotenv import load_dotenv
+from dotenv import load_dotenv
 
-# load_dotenv()
-# TOKEN = os.getenv('DISCORD_TOKEN')
-TOKEN = 'AA'
+load_dotenv()
+TOKEN = os.getenv('DISCORD_TOKEN')
 client = discord.Client(intents=discord.Intents.all())
 
 @client.event
