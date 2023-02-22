@@ -5,7 +5,7 @@ import discord
 
 # load_dotenv()
 # TOKEN = os.getenv('DISCORD_TOKEN')
-TOKEN = 'MTA3Nzg1OTg0MTY2MzU3NDA5Ng.GKFrXU.enKsS0YtI5WRLU0MqEiar_zGVOUKuaALv8kV_U'
+TOKEN = 'AA'
 client = discord.Client(intents=discord.Intents.all())
 
 @client.event
