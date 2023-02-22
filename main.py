@@ -5,6 +5,8 @@ from dotenv import load_dotenv
 
 load_dotenv()
 TOKEN = os.getenv('DISCORD_TOKEN')
+if TOKEN == None:
+    print("Load token failed.")
 client = discord.Client(intents=discord.Intents.all())
 
 @client.event
